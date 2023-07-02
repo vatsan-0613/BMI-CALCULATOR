@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI-Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/2ac65f1340.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+      <div class="gender">
+        <p>Gender</p>
+        <div class="gender-container">
+          <div class="male">
+            <i class="fa-solid fa-person"></i>
+          </div>
+          <div class="female">
+            <i class="fa-solid fa-person-dress"></i>
+          </div>
+        </div>
+      </div>
+      <div class="calc-box">
+        <div class="inputs">
+          <div class="weight">
+            <p>weight</p>
+            <input
+              type="number"
+              name="weight"
+              id="w"
+              placeholder="Weight in Kgs"
+            />
+          </div>
+          <div class="height">
+            <p>height</p>
+            <input
+              type="number"
+              name="height"
+              id="h"
+              placeholder="Height in Meters"
+            />
+          </div>
+          <div class="age">
+            <p>age</p>
+            <input
+              type="number"
+              name="age"
+              id="a"
+              placeholder="Enter your age"
+            />
+          </div>
+          <button class="calcButton">Calculate</button>
+        </div>
+        <div class="res-box">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
